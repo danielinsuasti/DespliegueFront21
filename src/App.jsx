@@ -27,7 +27,7 @@ function App() {
     <Auth0Provider
       domain='misiontic-motos-test.us.auth0.com' //Modificar
       clientId='5F5IWcNueK5yujJjTsAU1M3hrfiOvDqJ'         //Modificar
-      redirectUri='http://localhost:3000/admin'
+      redirectUri='https://afternoon-tundra-00110.herokuapp.com/admin'
       audience='api-autenticacion-misiontic-motos-test'//Cuidado para Modificar!!
     >
       <div className='App'>

@@ -39,7 +39,7 @@ const PrivateLayout = ({ children }) => {
         (err) => {
           console.log('err', err);
           setLoadingUserInformation(false);
-          logout({ returnTo: 'http://localhost:3000/admin' });
+          logout({ returnTo: 'https://afternoon-tundra-00110.herokuapp.com/admin' });
         }
       );
     };
